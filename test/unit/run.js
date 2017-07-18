@@ -85,6 +85,7 @@ var tests = [
   require('./sanitizer/search'),
   require('./sanitizer/search_fallback'),
   require('./sanitizer/wrap'),
+  require('./service/configurations/Language'),
   require('./service/configurations/PlaceHolder'),
   require('./service/configurations/PointInPolygon'),
   require('./service/mget'),
