@@ -184,7 +184,7 @@ function addRoutes(app, peliasConfig) {
       postProc.renamePlacenames(),
       postProc.parseBoundingBox(),
       postProc.normalizeParentIds(),
-      postProc.changeLanguage(),
+      postProc.changeLanguage(changeLanguageService, changeLanguageShouldExecute),
       postProc.assignLabels(),
       postProc.geocodeJSON(peliasConfig.api, base),
       postProc.sendJSON
@@ -201,7 +201,7 @@ function addRoutes(app, peliasConfig) {
       postProc.renamePlacenames(),
       postProc.parseBoundingBox(),
       postProc.normalizeParentIds(),
-      postProc.changeLanguage(),
+      postProc.changeLanguage(changeLanguageService, changeLanguageShouldExecute),
       postProc.assignLabels(),
       postProc.geocodeJSON(peliasConfig.api, base),
       postProc.sendJSON
@@ -222,7 +222,7 @@ function addRoutes(app, peliasConfig) {
       postProc.renamePlacenames(),
       postProc.parseBoundingBox(),
       postProc.normalizeParentIds(),
-      postProc.changeLanguage(),
+      postProc.changeLanguage(changeLanguageService, changeLanguageShouldExecute),
       postProc.assignLabels(),
       postProc.geocodeJSON(peliasConfig.api, base),
       postProc.sendJSON
@@ -242,7 +242,7 @@ function addRoutes(app, peliasConfig) {
       postProc.renamePlacenames(),
       postProc.parseBoundingBox(),
       postProc.normalizeParentIds(),
-      postProc.changeLanguage(),
+      postProc.changeLanguage(changeLanguageService, changeLanguageShouldExecute),
       postProc.assignLabels(),
       postProc.geocodeJSON(peliasConfig.api, base),
       postProc.sendJSON
@@ -256,7 +256,7 @@ function addRoutes(app, peliasConfig) {
       postProc.renamePlacenames(),
       postProc.parseBoundingBox(),
       postProc.normalizeParentIds(),
-      postProc.changeLanguage(),
+      postProc.changeLanguage(changeLanguageService, changeLanguageShouldExecute),
       postProc.assignLabels(),
       postProc.geocodeJSON(peliasConfig.api, base),
       postProc.sendJSON
