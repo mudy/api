@@ -16,6 +16,7 @@ var tests = [
   require('./controller/place'),
   require('./controller/placeholder'),
   require('./controller/search'),
+  require('./controller/predicates/has_request_parameter'),
   require('./controller/predicates/has_response_data'),
   require('./controller/predicates/has_results_at_layers'),
   require('./controller/predicates/has_request_errors'),
