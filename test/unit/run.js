@@ -91,8 +91,7 @@ var tests = [
   require('./service/configurations/PointInPolygon'),
   require('./service/mget'),
   require('./service/search'),
-  require('./service/interpolation'),
-  require('./service/language')
+  require('./service/interpolation')
 ];
 
 tests.map(function(t) {
