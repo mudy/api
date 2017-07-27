@@ -118,6 +118,9 @@ function addRoutes(app, peliasConfig) {
     not(hasResponseDataOrRequestErrors), isPlaceholderServiceEnabled, isAdminOnlyAnalysis
   );
 
+  // get language adjustments if:
+  // - there's a response
+  // - theres's a lang parameter in req.clean
   const changeLanguageShouldExecute = all(
     hasResponseData,
     not(hasRequestErrors),
